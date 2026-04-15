@@ -4,7 +4,7 @@
   "private": true,
   "description": "Static portfolio website for Chef Joharudin.",
   "scripts": {
-    "start": "echo \"No local server configured. Open index.html in a browser or use your own web server.\"",
+    "start": "npx http-server . -p 8080",
     "build": "echo \"No build step required for this static site.\""
   },
   "dependencies": {
